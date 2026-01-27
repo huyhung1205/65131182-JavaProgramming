@@ -1,6 +1,6 @@
-
 // Viết chương trình cho phép nhập họ và tên sinh viên, điểm trung bình từ bàn phím.
 // Xuất ra màn hình với định dạng: <<họ và tên>><<điểm>>điểm.
+package Lab1;
 
 import java.util.Scanner;
 
