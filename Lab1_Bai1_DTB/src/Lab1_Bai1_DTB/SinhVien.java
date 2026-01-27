@@ -15,6 +15,7 @@ public class SinhVien {
 		double score = s.nextDouble();
 
 		System.out.print(fullName + ": " + score + " điểm.");
+		s.close();
 	}
 
 }
