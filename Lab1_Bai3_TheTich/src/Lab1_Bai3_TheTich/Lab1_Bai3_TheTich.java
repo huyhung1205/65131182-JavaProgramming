@@ -2,9 +2,9 @@ package Lab1_Bai3_TheTich;
 
 import java.util.Scanner;
 
+//	Viết chương trình nhập từ bàn phím cạnh của một khối lập phương. Tính và xuất thể tích của khối chữ nhật
 public class Lab1_Bai3_TheTich {
 
-//	Viết chương trình nhập từ bàn phím cạnh của một khối lập phương. Tính và xuất thể tích của khối chữ nhật
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
