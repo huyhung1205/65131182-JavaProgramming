@@ -2,14 +2,12 @@ package Lab1_Bai4_Delta;
 
 import java.util.Scanner;
 
-public class Lab1_Bai4_Delta {
-
 //	Viết chương trình nhập các hệ số của phương trình bậc 2. Tính delta và xuất căn delta ra màn hình.
-
+public class Lab1_Bai4_Delta {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-//		Phương trình bậc 2 có dạng; ax^2 + bx + c = 0
+		// Phương trình bậc 2 có dạng; ax^2 + bx + c = 0
 		System.out.println("Nhập các hệ số của phươn trình bậc 2: ");
 		System.out.print("Nhập a: ");
 		double a = scan.nextDouble();
@@ -22,5 +20,4 @@ public class Lab1_Bai4_Delta {
 
 		scan.close();
 	}
-
 }
