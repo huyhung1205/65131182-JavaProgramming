@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Lab1_Bai2_ChuviDT {
 
-//	Viết chương trình nhập từ bàn phím 2 cạnh của hình chữ nhật. Tính và xuất chu vi, diện tích và cạnh nhỏ của hình chữ nhật.
+	// Viết chương trình nhập từ bàn phím 2 cạnh của hình chữ nhật. Tính và xuất chu
+	// vi, diện tích và cạnh nhỏ của hình chữ nhật.
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 
@@ -20,6 +21,6 @@ public class Lab1_Bai2_ChuviDT {
 		System.out.println("Chu vi: " + c);
 		System.out.println("Diện tích: " + d);
 		System.out.println("Cạnh nhỏ: " + e);
-
+		s.close();
 	}
 }
