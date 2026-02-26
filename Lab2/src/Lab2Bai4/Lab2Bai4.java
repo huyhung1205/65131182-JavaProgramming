@@ -22,12 +22,13 @@ public class Lab2Bai4 {
         System.out.println("+---------------------------------------------------+");
         System.out.print("Chọn chức năng: ");
         option = s.nextInt();
+        s.nextLine();
             switch (option) {
                 case 1:
-                    Lab2Bai1.main(null);
+                    Lab2Bai1.main();
                     break;
                 case 2:
-                    Lab2Bai2.main(null);
+                    Lab2Bai2.main();
                     break;
                 case 3:
                     Lab2Bai3.main(null);
