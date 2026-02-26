@@ -8,7 +8,7 @@ package Lab2Bai3;
 import java.util.Scanner;
 
 public class Lab2Bai3 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Chương trình tiền điện theo phương pháp lũy tiến:");
         System.out.print("Nhập số điện sử dụng (kWh): ");
@@ -20,5 +20,6 @@ public class Lab2Bai3 {
             tien = 50*1000 + (k-50)*1200;
         }
         System.out.printf("Tiền điện phải trả là: %.0f VNĐ",tien);
+        scanner.close();
     }
 }
