@@ -6,7 +6,7 @@ package Lab2Bai1;
 import java.util.Scanner;
 
 public class Lab2Bai1 {
-    static void main() {
+    public static void main() {
         System.out.println("Chương trình: Giải phương trình bậc nhất: ax + b = 0");
         Scanner scan = new Scanner(System.in);
         System.out.print("Nhập hệ số a: ");
@@ -22,5 +22,6 @@ public class Lab2Bai1 {
         } else {
             System.out.print("Nghiệm của phương trình: " + (-b/a));
         }
+        scan.close();
     }
 }
