@@ -6,7 +6,7 @@ package Lab2Bai2;
 import java.util.Scanner;
 
 public class Lab2Bai2 {
-    static void main() {
+    public static void main() {
         System.out.println("Chương trình: Giải phương trình bậc 2 có dạng: ax^2 + bx + c = 0");
         Scanner s = new Scanner(System.in);
         System.out.print("Nhập hệ số a: ");
